@@ -1,7 +1,7 @@
 <?php
-$servername = "codd.cs.gsu.edu";
-$username = "fwong1";
-$password = "fwong1";
+$servername = "localhost";
+$username = "root";
+$password = "";
 $dbname = "fwong1";
 
 // Create connection
@@ -12,8 +12,8 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-else {
-	echo "Test Database Connection";
-}
+//else {
+//	echo "Test Database Connection";
+//}
 
 ?>
